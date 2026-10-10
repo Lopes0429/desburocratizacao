@@ -1,0 +1,105 @@
+{
+  "velho_testamento": {
+    "pentateucos": {
+      "artigos": [
+        "genesis_1",
+        "exodus_1",
+        "leviticus_1",
+        "numbers_1",
+        "deuteronomy_1"
+      ]
+    },
+    "historia": {
+      "artigos": [
+        "joshua_1",
+        "judges_1",
+        "ruth_1",
+        "1_samuel_1",
+        "2_samuel_1",
+        "1_kings_1",
+        "2_kings_1",
+        "1_chronicles_1",
+        "2_chronicles_1",
+        "esther_1",
+        "nehemiah_1"
+      ]
+    },
+    "criacao": {
+      "artigos": [
+        "genesis_1"
+      ]
+    },
+    "artigos": []
+  },
+
+  "novo_testamento": {
+    "artigos": [
+      "matthew_1",
+      "mark_1",
+      "luke_1",
+      "john_1",
+      "acts_1",
+      "romans_1",
+      "1_corinthians_1",
+      "2_corinthians_1",
+      "galatians_1",
+      "ephesians_1",
+      "philippians_1",
+      "colossians_1",
+      "1_thessalonians_1",
+      "2_thessalonians_1",
+      "1_timothy_1",
+      "2_timothy_1",
+      "titus_1",
+      "philemon_1",
+      "hebrews_1",
+      "jacob_1",
+      "1_peter_1",
+      "2_peter_1",
+      "1_john_1",
+      "2_john_1",
+      "3_john_1",
+      "jude_1",
+      "revelation_1"
+    ]
+  },
+
+  "livros_da_sabedoria": {
+    "artigos": [
+      "job_1",
+      "psalms_1",
+      "proverbs_1",
+      "ecclesiastes_1",
+      "song_of_songs_1"
+    ]
+  },
+
+  "profetas": {
+    "maiores": {
+      "artigos": [
+        "isaiah_1",
+        "jeremiah_1",
+        "lamentations_1",
+        "ezekiel_1",
+        "daniel_1"
+      ]
+    },
+    "menores": {
+      "artigos": [
+        "hosea_1",
+        "joel_1",
+        "amos_1",
+        "obadiah_1",
+        "jonah_1",
+        "michelle_1",
+        "nahum_1",
+        "habakkuk_1",
+        "sophonia_1",
+        "ageu_1",
+        "zechariah_1",
+        "malachi_1"
+      ]
+    },
+    "artigos": []
+  }
+}

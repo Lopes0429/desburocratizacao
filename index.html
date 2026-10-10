@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicação Web - Interface Pública</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Header & Navegação -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">Blog Pocket</a>
+      <nav class="nav-links">
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <h1>Conectando todos os seus conteudos em um só lugar</h1>
+      <p>Acesse conteúdos, faça busca em tempo real, gerencie a organizacao das informaçõe de forma eficiente.</p>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal / Feed Dinâmico -->
+  <main class="container main-content">
+    <section class="controls-bar">
+      <form id="search-form" class="search-box">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Buscar registros..."
+          autocomplete="off"
+        />
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    <section id="search-results-section" hidden>
+      <div id="search-results"></div>
+    </section>
+
+    <section id="navigation-section">
+      <div id="navigation-header"></div>
+      <div id="cards-grid" class="cards-grid"></div>
+    </section>
+
+    <div id="loading-spinner" class="spinner-container hidden">
+      <div class="spinner"></div>
+      <p>Carregando dados...</p>
+    </div>
+
+    <div id="status-message" class="alert-box hidden"></div>
+
+
+    <!-- Grid de Cards Renderizados Dinamicamente -->
+    <section id="cards-grid" class="cards-grid">
+      <!-- Inserido dinamicamente via JS -->
+    </section>
+  </main>
+
+  <!-- Modal Detalhes/Formulário -->
+  <div id="app-modal" class="modal-backdrop hidden">
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3 id="modal-title">Detalhes do Item</h3>
+        <button id="btn-close-modal" class="btn-icon">&times;</button>
+      </header>
+      <div id="modal-body" class="modal-body">
+        <!-- Conteúdo do Modal -->
+      </div>
+      <footer class="modal-footer">
+        <button id="btn-modal-cancel" class="btn btn-secondary">Fechar</button>
+        <button id="btn-modal-confirm" class="btn btn-primary">Confirmar</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Blog Pocket. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+  <script type="module" src="src/articles_catalog.js"></script>
+  <script type="module" src="src/compressor.js"></script>
+  <script type="module" src="src/huffman_tree.js"></script>
+  <script type="module" src="src/search.js"></script>
+  <script type="module" src="src/tree.js"></script>
+  <script type="module" src="src/util.js"></script>
+
+</body>
+</html>
